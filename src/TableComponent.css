@@ -1,0 +1,35 @@
+*{
+    box-sizing: border-box;
+}
+.TableComponent{    
+    background-color :#203588;
+    color: white;
+    padding: 20px;
+}
+
+.TableComponent > h2{
+    margin-bottom: 40px;
+    font-size: 15px;
+}
+
+.TableComponentStatus{
+    width: fit-content;
+    display: flex;
+    align-items: center;
+}
+
+.TableComponentStatus > span{
+    font-size: 12px;
+    margin-right: 5px;
+}
+
+.TableComponentStatus > p{
+    font-weight: bold;
+    font-size: 15px;
+    margin-left: 5px;
+}
+
+.TableComponent:hover{
+    cursor: pointer;
+}
+

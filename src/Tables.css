@@ -1,0 +1,68 @@
+.TableContents{
+    display: flex;
+    flex: 0.8;
+    flex-direction: column; 
+    color: hsl(231, 13%, 50%);
+}
+
+.Tableheader{
+    display: flex;
+    justify-content: space-between;
+    flex-grow: 0;
+    background-color: #0e1229;
+    color: white;
+}
+
+.TableLeft{
+    display: flex;
+    padding: 5px;
+    align-items: center;
+    justify-content: center;
+}
+
+.BackIcon{
+    color: white;
+}
+
+.leftTableName{
+    margin-left: 10px;
+}
+
+.leftTableName > h3 {
+    font-size: 20px;
+}
+
+.leftTableName > p{
+    font-size: 10px;
+}
+
+.TableRight{
+    display: flex;
+    align-items: center;
+}
+
+.TableRightOrders{
+    width: 90px;
+    background-color: #3541d6;
+    color: white;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 20px;
+    font-size: small;
+    font-weight: bold;
+}
+
+.TableRightCustomers{
+    width: 90px;
+    background-color: #5b45b2;
+    color: white;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 20px;
+    font-size: small;
+    font-weight: bold;
+}
+
+button:hover{
+    cursor: pointer;
+}

@@ -1,0 +1,134 @@
+.orders{
+    display: flex;
+    flex: 0.2;
+    min-width: 300px;
+}
+
+.orderContents{
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 auto;
+    background-color: #0b0e20;
+    color: white;
+}
+
+.orderHeader{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid hsl(231, 13%, 50%);
+}
+
+.rightOrderHeader{
+    display: flex;
+}
+
+.rightText {
+    display: block;
+    float: inline-end;
+}
+
+.rightText > p{
+    font-size: 10px;
+    margin-right: 10px;
+    color: hsl(231, 13%, 50%);
+}
+
+.orderContents{
+    display: flex;
+    flex-direction: column;
+    background-color: #0e1229;
+    border-bottom: 1px solid hsl(231, 13%, 50%);
+}
+
+.orderContentsHeader{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.rightOrderContents > *{
+    margin-right: 10px;
+}
+
+.orderContentsItems > .orderContentsBody{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    color :hsl(231, 13%, 50%);
+    overflow: hidden;
+    min-height: 200px;
+    display: none;
+}
+
+.orderPayment{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.orderPaymentHeader{
+    display: flex;
+    justify-content: space-between;
+}
+
+.orderPaymentHeader > * {
+    width: 100%;
+    color: white;
+    background-color: hwb(231 12% 75%);
+    padding: 5px;
+    border: none;
+    border-radius: 2px;
+    margin-right: 3px;
+}
+
+.orderPaymentBody{
+    margin: 15px 0px 50px 0px;
+}
+
+.gst, .SubTotal{
+    color: hsl(231, 13%, 50%);
+    font-size: 15px;
+}
+
+.total{
+    font-weight: bold;
+}
+
+.orderPaymentBody > *{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 0px;
+}
+
+.orderPaymentFooter{
+    display: flex;
+    justify-content: space-between;
+}
+
+.orderPaymentFooter > * {
+    width: 100%;
+    color: white;
+    background-color: rgb(48, 50, 64);
+    padding: 5px;
+    border: none;
+    border-radius: 2px;
+    margin-right: 3px;
+}
+
+.orderContentsBody{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    color :hsl(231, 13%, 50%);
+    overflow: hidden;
+    min-height: 200px;
+}
+
+
+
+
